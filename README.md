@@ -27,7 +27,7 @@ Before using the VMs, it is important to set the domain controller VM's IP addre
 <br />
 
 <p>
-<img src="https://i.imgur.com/hE1XNtg.png" height="80%" width="80%" alt="Installation Steps"/>
+<img src="https://i.imgur.com/CZZVThe.png" height="80%" width="80%" alt="Installation Steps"/>
 <img src="https://i.imgur.com/hlDtnbY.png" height="80%" width="80%" alt="Installation Steps"/>
 <img src="https://i.imgur.com/IbIJWiC.png" height="80%" width="80%" alt="Installation Steps"/>
 </p>
