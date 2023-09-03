@@ -29,7 +29,7 @@ Before using the VMs, it is important to set the domain controller VM's IP addre
 <p>
 <img src="https://i.imgur.com/CZZVThe.png" height="80%" width="80%" alt="Installation Steps"/>
 <img src="https://i.imgur.com/Dgewe4o.png" height="80%" width="80%" alt="Installation Steps"/>
-<img src="https://i.imgur.com/IbIJWiC.png" height="80%" width="80%" alt="Installation Steps"/>
+<img src="https://i.imgur.com/YC8B3m3.png" height="80%" width="80%" alt="Installation Steps"/>
 </p>
 <p>
 After setting the static IP, it is time to log in to the client VM and see if there is connectivity to the domain controller. Using ping -t (domain controller private ip address), will show that the connection is being timed out. On the domain controller VM, we need to enable ICMPv4 on the local Windows Firewall. Within the search bar, type wf.msc to open Windows Defender Firewall. Click on Inbound Rules and enable the Core Networking Diagnostics - ICMP Echo Request rules. Returning to the client VM will show that the ping is now resolving without errors.
